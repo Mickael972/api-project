@@ -1,0 +1,23 @@
+{
+    "name": "madaboy/api_project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mickael972",
+            "email": "madallstar@gmail.com"
+        }
+    ],
+    "scripts": {
+        "start" : "php -S localhost:8000 -t public/ public/index.php"
+    },
+    "config": {
+        "process-timeout": 0
+    },
+    "require": {
+        "symfony/dotenv": "^6.2"
+    }
+}
